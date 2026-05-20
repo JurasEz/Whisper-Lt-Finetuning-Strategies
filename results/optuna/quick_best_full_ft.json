@@ -1,0 +1,20 @@
+{
+  "strategy": "full_ft",
+  "study_name": "bakis_whisper_v3_quick_full_ft",
+  "objective_metric": "best_eval_loss",
+  "best_value": 0.42964112758636475,
+  "best_trial_number": 0,
+  "best_params": {
+    "learning_rate": 1e-05,
+    "weight_decay": 0.0,
+    "max_epochs": 1,
+    "max_steps": 600,
+    "eval_steps": 200,
+    "save_steps": 200,
+    "tune_train_subset_size": 3000,
+    "tune_valid_subset_size": 300,
+    "tune_compute_test_metrics": false,
+    "auto_resume": false
+  },
+  "run_name": "quick_hpo_trial_000"
+}

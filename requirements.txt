@@ -1,0 +1,16 @@
+--index-url https://download.pytorch.org/whl/cu124
+--extra-index-url https://pypi.org/simple
+torch==2.6.0
+transformers>=4.40.0
+peft
+bitsandbytes
+librosa
+soundfile
+jiwer
+sentence-transformers
+phonemizer
+rapidfuzz
+pympi-ling
+pyyaml
+numpy
+optuna==4.8.0

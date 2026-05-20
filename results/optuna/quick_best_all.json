@@ -1,0 +1,66 @@
+{
+  "full_ft": {
+    "strategy": "full_ft",
+    "study_name": "bakis_whisper_v3_quick_full_ft",
+    "objective_metric": "best_eval_loss",
+    "best_value": 0.42964112758636475,
+    "best_trial_number": 0,
+    "best_params": {
+      "learning_rate": 1e-05,
+      "weight_decay": 0.0,
+      "max_epochs": 1,
+      "max_steps": 600,
+      "eval_steps": 200,
+      "save_steps": 200,
+      "tune_train_subset_size": 3000,
+      "tune_valid_subset_size": 300,
+      "tune_compute_test_metrics": false,
+      "auto_resume": false
+    },
+    "run_name": "quick_hpo_trial_000"
+  },
+  "selective_ft": {
+    "strategy": "selective_ft",
+    "study_name": "bakis_whisper_v3_quick_selective_ft",
+    "objective_metric": "best_eval_loss",
+    "best_value": 0.35681578516960144,
+    "best_trial_number": 1,
+    "best_params": {
+      "learning_rate": 2e-05,
+      "weight_decay": 0.0,
+      "freeze_encoder_bottom_n_layers": 16,
+      "max_epochs": 1,
+      "max_steps": 800,
+      "eval_steps": 200,
+      "save_steps": 200,
+      "tune_train_subset_size": 5000,
+      "tune_valid_subset_size": 400,
+      "tune_compute_test_metrics": false,
+      "auto_resume": false
+    },
+    "run_name": "quick_hpo_trial_001"
+  },
+  "lora_ft": {
+    "strategy": "lora_ft",
+    "study_name": "bakis_whisper_v3_quick_lora_ft",
+    "objective_metric": "best_eval_loss",
+    "best_value": 0.37484437227249146,
+    "best_trial_number": 2,
+    "best_params": {
+      "learning_rate": 0.0002,
+      "weight_decay": 0.0,
+      "lora_r": 16,
+      "lora_alpha": 64,
+      "lora_dropout": 0.1,
+      "max_epochs": 1,
+      "max_steps": 800,
+      "eval_steps": 200,
+      "save_steps": 200,
+      "tune_train_subset_size": 5000,
+      "tune_valid_subset_size": 400,
+      "tune_compute_test_metrics": false,
+      "auto_resume": false
+    },
+    "run_name": "quick_hpo_trial_002"
+  }
+}
