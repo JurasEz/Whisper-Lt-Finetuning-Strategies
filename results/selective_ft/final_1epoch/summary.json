@@ -1,0 +1,7 @@
+{
+  "best_eval_loss": 0.1937827318906784,
+  "model_dir": "outputs/selective_ft/final_1epoch/best_model",
+  "run_name": "final_1epoch",
+  "strategy_name": "selective_ft",
+  "tune_mode": false
+}

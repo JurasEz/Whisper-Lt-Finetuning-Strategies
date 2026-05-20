@@ -1,0 +1,7 @@
+{
+  "best_eval_loss": 0.24343839287757874,
+  "model_dir": "outputs/lora_ft/final_1epoch/best_model",
+  "run_name": "final_1epoch",
+  "strategy_name": "lora_ft",
+  "tune_mode": false
+}

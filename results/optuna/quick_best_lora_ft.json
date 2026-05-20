@@ -1,0 +1,23 @@
+{
+  "strategy": "lora_ft",
+  "study_name": "bakis_whisper_v3_quick_lora_ft",
+  "objective_metric": "best_eval_loss",
+  "best_value": 0.37484437227249146,
+  "best_trial_number": 2,
+  "best_params": {
+    "learning_rate": 0.0002,
+    "weight_decay": 0.0,
+    "lora_r": 16,
+    "lora_alpha": 64,
+    "lora_dropout": 0.1,
+    "max_epochs": 1,
+    "max_steps": 800,
+    "eval_steps": 200,
+    "save_steps": 200,
+    "tune_train_subset_size": 5000,
+    "tune_valid_subset_size": 400,
+    "tune_compute_test_metrics": false,
+    "auto_resume": false
+  },
+  "run_name": "quick_hpo_trial_002"
+}
